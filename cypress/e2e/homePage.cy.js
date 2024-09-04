@@ -22,7 +22,7 @@ describe('Home page test cases', () => {
     navigateTo.shopPage();
     navigateTo.homePage();
     verifyItems.verifyArrivalsLength();
-    verifyItems.verifyArrivalsImageIsClicable();
+    verifyItems.verifyArrivalsImageIsClickable();
   })
 
 
