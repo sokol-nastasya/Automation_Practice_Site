@@ -18,7 +18,7 @@ describe('Home page test cases', () => {
     verifyItems.verifyArrivalsLength();
   });
 
-  it('Home page - Images in Arrivals should navigate', () => {
+  it.only('Home page - Images in Arrivals should navigate', () => {
     navigateTo.shopPage();
     navigateTo.homePage();
     verifyItems.verifyArrivalsLength();
