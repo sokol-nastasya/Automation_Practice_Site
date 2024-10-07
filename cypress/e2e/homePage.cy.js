@@ -18,13 +18,25 @@ describe('Home page test cases', () => {
     verifyItems.verifyArrivalsLength();
   });
 
-  it.only('Home page - Images in Arrivals should navigate', () => {
+  it('Home page - Images in Arrivals should navigate', () => {
     navigateTo.shopPage();
     navigateTo.homePage();
     verifyItems.verifyArrivalsLength();
     verifyItems.verifyArrivalsImageIsClickable();
   })
 
+  it('Home page - Arrivals Images Description', () => {
+    navigateTo.shopPage();
+    navigateTo.homePage();
+    verifyItems.verifyArrivalsLength();
+    verifyItems.varifyArrivalsImagesHasDescription();
+  })
 
+  it('Home page - Arrivals Images Reviews', () => {
+    navigateTo.shopPage();
+    navigateTo.homePage();
+    verifyItems.verifyArrivalsLength();
+    verifyItems.varifyArrivalsImagesHasReview();
+  })
  
 });
