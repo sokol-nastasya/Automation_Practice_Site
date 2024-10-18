@@ -38,5 +38,5 @@ describe('Home page test cases', () => {
     verifyItems.verifyArrivalsLength();
     verifyItems.varifyArrivalsImagesHasReview();
   })
- 
+  
 });

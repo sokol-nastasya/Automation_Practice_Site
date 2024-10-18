@@ -17,6 +17,10 @@ export class NavigationPage {
         navigationItems('Home');
 
     };
+
+    myAccountPage() {
+        selectMenuItem('My Account');
+    }
 };
 
 export const navigateTo = new NavigationPage();
